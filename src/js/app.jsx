@@ -41,14 +41,11 @@ export default class App extends React.Component {
     const total = balance * (numerator / denominator);
     const result = total.toFixed(2);
     const payment = `${result}`;
-    
 
     this.setState({ payment });
   }
 
   render() {
-
-    
     return (
       
       <div className='container'>
